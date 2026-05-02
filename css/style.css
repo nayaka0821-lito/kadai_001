@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Noto Sans Japanese',sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+/* ヘッダー */
+.header 
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border: 1px solid #000;
+  padding: 5px 20px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #000;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+#main-visual {
+  max-width: 1080px;
+}
+
+#main-visual img {
+  width: 100%;
+}
+
+#about {
+  margin: 50px 100px 25px 100px ;
+  padding: 0;
+}
+
+#about > h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-flex img {
+  margin: 0 60px 0 80px;
+  border-radius: 200px;
+}
+
+.about-flex h2 {
+  font-size: 24px;
+}
+
+#works {
+  margin: 50px 0 25px 0;
+}
+
+#works > h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.works-details {
+  display: flex;
+  max-width: 767px;
+}
+
+.works-details div {
+  margin: 0 10px;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+/* スマホ用のスタイル */
+ @media screen and (max-width: 767px){
+  .works-details {
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+} 
