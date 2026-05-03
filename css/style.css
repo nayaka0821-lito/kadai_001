@@ -16,7 +16,7 @@ h1 {
 }
 
 /* ヘッダー */
-.header 
+.header {
   display: flex;
   justify-content: space-between;
 }
